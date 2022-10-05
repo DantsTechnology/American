@@ -1,0 +1,2937 @@
+body {
+   margin: 0;
+   padding: 0;
+   max-width: 100%;
+   min-width: 100%;
+   background-color: black;
+   color: white;
+   font-family: sans-serif;
+}
+header {
+   width: 100%;
+   height: 1000px;
+   background: url(./Naturaleza.jpg);
+   background-size: cover;
+   color: black;
+}
+.contenido_header {
+   padding: 30px 20px 0 20px;
+   display: flex;
+   justify-content: space-between;
+}
+.contenido_logo {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.contenido_logo p {
+   font-size: 18px;
+   color: rgb(49, 62, 255);
+   text-align: center;
+   margin: 0;
+}
+.logo_american {
+   width: 200px;
+   border-radius: 20px;
+}
+.between_flex {
+   display: flex;
+}
+.contenido_agente {
+   text-align: right;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.contenido_agente p {
+   margin: 0;
+   font-size: 17px;
+   padding: 0;
+}
+.llamada {
+   text-decoration: none;
+}
+.contenido_llamada {
+   height: 84px;
+   cursor: pointer;
+   margin-left: 20px;
+   justify-content: center;
+   border-radius: 30px;
+   align-items: center;
+   width: 250px;
+   display: flex;
+   background: orange;
+}
+.contenido_llamada img {
+   width: 50px;
+   height: 50px;
+}
+.contenido_llamada_num p {
+   text-align: center;
+   font-size: 22px;
+   padding-left: 15px;
+   margin: 0;
+}
+.contenido_horario {
+   margin-top: -15px;
+   font-size: 18px;
+   font-weight: 600;
+   margin-right: 55px;
+   color: yellow;
+   text-align: right;
+}
+.contenido_titulos {
+   width: 60%;
+   margin-left: 30px;
+}
+.contenido_titulos p {
+   color: rgb(255, 255, 255);
+   font-weight: 600;
+   width: 600px;
+   font-size: 20px;
+}
+.title {
+   font-size: 35px;
+   color: white;
+}
+
+
+/* Contenedor barras Form */
+.content_barra {
+   margin: 20px 0 20px 0;
+   display: flex;
+   justify-content: center;
+}
+.barra {
+   width: 300px;
+   height: 20px;
+   background: rgba(255, 255, 255, 0.2);
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+}
+
+.progreso_nacimiento {
+   width: var(--w);
+   height: 100%;
+   background: rgba(0, 0, 255, 1);
+   border-radius: 10px;
+   animation:Aumentar1 2s ease;
+}
+@keyframes Aumentar1 {
+   0%{width:0%;}
+   100%{width: var(--w);}
+}
+
+.progreso_incapacidad {
+   width: var(--w);
+   height: 100%;
+   background: rgba(0, 0, 255, 1);
+   border-radius: 10px;
+   animation:Aumentar2 2s ease;
+}
+@keyframes Aumentar2 {
+   0%{width:0%;}
+   100%{width: var(--w);}
+}
+
+/* Si */
+.progreso_inscrito {
+   width: var(--w);
+   height: 100%;
+   background: rgba(0, 0, 255, 1);
+   border-radius: 10px;
+   animation:Aumentar2 2s ease;
+}
+@keyframes Aumentar2 {
+   0%{width:0%;}
+   100%{width: var(--w);}
+}
+
+.progreso_si_genero {
+   width: var(--w);
+   height: 100%;
+   background: rgba(0, 0, 255, 1);
+   border-radius: 10px;
+   animation:Aumentar2 2s ease;
+}
+@keyframes Aumentar2 {
+   0%{width:0%;}
+   100%{width: var(--w);}
+}
+
+/* No */
+.progreso_no_genero {
+   width: var(--w);
+   height: 100%;
+   background: rgba(0, 0, 255, 1);
+   border-radius: 10px;
+   animation:Aumentar2 2s ease;
+}
+@keyframes Aumentar2 {
+   0%{width:0%;}
+   100%{width: var(--w);}
+}
+
+.progreso_ingreso {
+   width: var(--w);
+   height: 100%;
+   background: rgba(0, 0, 255, 1);
+   border-radius: 10px;
+   animation:Aumentar2 2s ease;
+}
+@keyframes Aumentar2 {
+   0%{width:0%;}
+   100%{width: var(--w);}
+}
+
+.progreso_hogar {
+   width: var(--w);
+   height: 100%;
+   background: rgba(0, 0, 255, 1);
+   border-radius: 10px;
+   animation:Aumentar2 2s ease;
+}
+@keyframes Aumentar2 {
+   0%{width:0%;}
+   100%{width: var(--w);}
+}
+
+.progreso_altura {
+   width: var(--w);
+   height: 100%;
+   background: rgba(0, 0, 255, 1);
+   border-radius: 10px;
+   animation:Aumentar2 2s ease;
+}
+@keyframes Aumentar2 {
+   0%{width:0%;}
+   100%{width: var(--w);}
+}
+
+.progreso_peso {
+   width: var(--w);
+   height: 100%;
+   background: rgba(0, 0, 255, 1);
+   border-radius: 10px;
+   animation:Aumentar2 2s ease;
+}
+@keyframes Aumentar2 {
+   0%{width:0%;}
+   100%{width: var(--w);}
+}
+
+.progreso_tabaco {
+   width: var(--w);
+   height: 100%;
+   background: rgba(0, 0, 255, 1);
+   border-radius: 10px;
+   animation:Aumentar2 2s ease;
+}
+@keyframes Aumentar2 {
+   0%{width:0%;}
+   100%{width: var(--w);}
+}
+
+
+
+
+
+/* Form */
+.form {
+   padding: 25px;
+   text-align: center;
+}
+.form div h2 {
+   margin-top: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 25px;
+   font-weight: bolder;
+}
+.btn_saltar_genero {
+   text-align: center;
+   font-size: 20px;
+   background: rgb(180, 180, 180);
+   color: black;
+   border: none;
+   margin: auto;
+   cursor: pointer;
+   margin-top: 15px;
+}
+
+.btn_Continue {
+   text-align: center;
+   width: 100px;
+   font-size: 20px;
+   background: white;
+   color: black;
+   display: block;
+   margin: auto;
+   cursor: pointer;
+   margin-top: 20px;
+   padding: 10px 20px;
+   border-radius: 20px;   
+}
+.irrelevante {
+   font-size: 16px;
+   margin-top: 10px;
+}
+.cuestionario_atras {
+   margin-top: 20px;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+}
+.contenido_flecha {
+   width: 20px;
+   height: 20px;
+   margin-right: 8px;
+}
+.contenido_flecha img {
+   width: 20px;
+   height: 100%;
+}
+.btn_back {
+   margin: 0;
+   height: 20px;
+   font-size: 20px;
+}
+.btm_SiNo {
+   border-radius: 20px;
+   margin: 0 10px 0 10px;
+   border: none;
+   cursor: pointer;
+   text-align: center;
+   padding: 10px 40px;
+   font-size: 20px;
+}
+
+
+
+/* Codigo Postal */
+.form1 {
+   max-width: 375px;
+   width: 375px;
+   position: absolute;
+   background: rgb(180, 180, 180);
+   padding: 25px;
+   border-radius: 25px;
+}
+.virificar_tamaño{
+   font-size: 20px;
+   text-align: center;
+   border: none;
+   border-radius: 20px;
+   padding: 5px 0 5px;
+}
+.form1_logos {
+   margin-top: 20px;
+}
+.form1_logos img {
+   margin: 0 7px 0 7px;
+}
+
+
+
+/* Nacimiento */
+.form2 {
+   max-width: 375px;
+   width: 375px;
+   visibility: hidden;
+   opacity: 0;
+   position: absolute;
+   background: rgb(180, 180, 180);
+   padding: 25px;
+   border-radius: 25px;
+}
+.fechas_flex {
+   justify-content: center;
+   display: flex;
+}
+.content_fechas select {
+   font-size: 20px;
+   text-align: center;
+   width: 120px;
+   margin: 5px;
+   padding: 5px 0 5px;
+}
+
+
+
+/* Incapacidad */
+.form3 {
+   max-width: 375px;
+   width: 375px;
+   visibility: hidden;   
+   opacity: 0;
+   position: absolute;
+   background: rgb(180, 180, 180);
+   padding: 25px;
+   border-radius: 25px;
+}
+
+
+
+/* Incapacidad Si */
+.si_inscrito, .si_genero {
+   max-width: 375px;
+   width: 375px;
+   visibility: visible;   
+   opacity: 1;
+   position: absolute;
+   background: rgb(180, 180, 180);
+   padding: 25px;
+   border-radius: 25px;
+}
+
+.btn_genero {
+   border-radius: 20px;
+   margin: 0 10px 0 10px;
+   cursor: pointer;
+   border: none;
+   text-align: center;
+   padding: 10px 40px;
+   font-size: 20px;
+}
+
+
+
+/* Incapacidad No */
+.no_genero, .no_ingreso, .no_hogar, .no_altura, .no_peso, .no_tabaco{
+   max-width: 375px;
+   width: 375px;
+   visibility: visible;   
+   opacity: 1;
+   position: absolute;
+   background: rgb(180, 180, 180);
+   padding: 25px;
+   border-radius: 25px;
+}
+.ContinuarHogar, .ContinuarPeso, .ContinuarTabaco {
+   text-align: center;
+   width: 100px;
+   background: white;
+   color: black;
+   font-size: 20px;
+   display: block;
+   margin: auto;
+   cursor: pointer;
+   margin-top: 20px;
+   padding: 10px 20px;
+   border-radius: 20px;  
+}
+
+.contenedor_havitantes {
+   display: flex;
+   justify-content: center;
+   flex-flow: wrap;
+}
+.boton_casa {
+   cursor: pointer;
+   font-weight: bold;
+   border-radius: 20px;
+   background: white;
+   padding: 10px 35px;
+   margin: 10px;
+}
+
+/* Rango */
+.range .field input {
+   margin-top: 10px;
+   -webkit-appearance: none;
+   height: 7px;
+   width: 100%;   
+   background: rgb(63, 60, 255);
+   border-radius: 5px;
+   border: none;
+   outline: none;
+}
+.range .field input::-webkit-slider-thumb {
+   -webkit-appearance: none;
+   height: 20px;
+   width: 20px;   
+   background: blue;
+   border-radius: 50%;
+   cursor: pointer;
+}
+.sliderValue {
+   justify-content: center;
+   display: flex;
+   color: blue;
+   font-size: 25px;
+   font-weight: 600;
+   margin-bottom: -10px;
+   margin-top: -10px;
+}
+.field {
+   display: flex;
+   justify-content: center;
+}
+.value {
+   font-size: 20px;
+}
+#rango{
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.rango_largo {
+   width: 200px;
+}
+
+.contenedor_Altura {
+   display: flex;
+   font-size: 20px;
+   justify-content: space-evenly;
+}
+.pies {
+   display: block;
+}
+.contenedor_Altura div select {
+   font-size: 20px;
+   padding: 5px 0;
+   width: 100px;
+   text-align: center;
+}
+
+.virificar_peso{
+   font-size: 20px;
+   text-align: center;
+   border: none;
+   border-radius: 20px;
+   padding: 5px 0 5px;
+}
+
+.contenedor_tabaco {
+   display: flex;
+   width: 70%;
+   justify-content: space-evenly;
+   margin: auto;
+   margin-top: 0;
+}
+.continuarFin {
+   text-align: center;
+   width: 100px;
+   background: white;
+   color: black;
+   font-size: 20px;
+   display: block;
+   border: none;
+   margin: auto;
+   cursor: pointer;
+   margin-top: 0px;
+   padding: 10px 20px;
+   border-radius: 20px;  
+}
+
+
+
+/* Fin */
+.contenedor_progreso_completo {
+   background: rgb(110, 110, 110);
+   width: 340px;
+   padding: 0 20px 0 20px;
+   margin-bottom: 10px;
+   border-radius: 30px;
+   display: flex;
+}
+.contenedor_progreso_completo p {
+   color: white;
+   font-weight: 500;
+   font-size: 10px;
+}
+.contenido_img {
+   margin: 0 10px 0 0;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.img_palomita {
+   width: 20px;
+   height: 20px;
+   align-items: center;
+   justify-content: center;
+}
+.form4 {
+   margin-top: -50px;
+   max-width: 400px;
+   height: 650px;
+   width: 380px;
+   visibility: hidden;   
+   opacity: 0;
+   position: absolute;
+   background: rgb(180, 180, 180);
+   padding: 25px;
+   border-radius: 25px;
+}
+.contenedor_fin_form {
+   text-align: left;
+}
+.nombre_completo {
+   display: flex;
+   text-align: left;
+   margin-bottom: 10px;
+}
+.nombre_completo div input{
+   width: 171px;
+}
+.nombre {
+   margin-right:20px;
+}
+.text {
+   display: block;
+   padding: 5px;
+   margin-bottom: 10px;
+   width: 96%;
+}
+.cotizacion {
+   padding-top: 5px;
+   width: 67%;
+   margin: auto;
+   display: flex;
+}
+.cotizacion p {
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-left: 10px;
+   font-size: 17px;
+}
+.justificar_check {
+   margin-right: 0;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.check {
+   width: 20px;
+   height: 20px;
+   align-items: center;
+   justify-content: center;
+}
+.enviar_form {
+   background: rgb(124, 124, 255);
+   font-size: 18px;
+   color: black;
+   font-weight: 500;
+   cursor: pointer;
+   padding: 10px 30px;
+   border-radius: 30px;
+   border: none;
+   margin-top: 20px;
+}
+.contenedor_texto {
+   margin-top: 20px;
+   height: 160px;
+   overflow: auto;
+}
+.contenedor_texto p {
+   margin-right: 10px;
+   margin-top: 0;
+   font-size: 15px;
+}
+
+
+
+/* Flotantes */
+.btn_politicas, .btn_terminos, .btn_marketing, .btn_CCPA a{
+   color: blue;
+   text-decoration: none;
+   cursor: pointer;
+   font-size: 15px;
+   font-weight: 800;
+}
+
+.conteneror_privacidad, .conteneror_condiciones, .conteneror_socios{
+   margin: auto;
+   position: fixed;
+   z-index: 1000;
+   width: 100%;
+   height: 100vh;
+   top: 0;
+   left: 0;
+   background: rgba(0,0,0,0.5);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.contenido_privacidad, .contenido_condiciones, .contenido_socios {
+   width: 60%;
+   height: 60%;
+   padding: 80px;
+   background: rgb(97, 97, 97);
+   border-radius: 20px;
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
+   border-left: 1px solid black;
+   position: relative;
+   overflow: auto;
+}
+
+.conteneror_privacidad, .conteneror_condiciones h2 {
+   font-size: 30px;
+   margin-top: 0;
+   margin-bottom: 20px;
+}
+.conteneror_privacidad, .conteneror_condiciones h3 {
+   font-size: 25px;
+   margin-bottom: 5px;
+}
+.conteneror_privacidad, .conteneror_condiciones p {
+   font-size: 20px;
+   margin-top: 0;
+   margin-bottom: 20px;
+}
+
+/* Privacidad */
+.conteneror_privacidad {
+   opacity: 0;
+   visibility: hidden;
+}
+.conteneror_privacidad table {
+   border-collapse: collapse;
+}
+.conteneror_privacidad table th,td {
+   font-size: 20px;
+   border: 2px solid black;
+   padding: 20px;
+   margin: 0;
+}
+.contenido_privacidad {
+   transition: transform 1s;
+   transform: translateY(0%);
+}
+.privacidad_cerrar {
+   transform: translateY(-200%);
+}
+
+
+/* Condiciones */
+.conteneror_condiciones {
+   opacity: 0;
+   visibility: hidden;
+}
+.contenido_condiciones {
+   transition: transform 1s;
+   transform: translateY(0%);
+}
+.condiciones_cerrar {
+   transform: translateY(-200%);
+}
+
+/* Socios */
+.conteneror_socios {
+   opacity: 0;
+   visibility: hidden;
+}
+.contenido_socios {
+   transition: transform 1s;
+   transform: translateY(0%);
+}
+.socios_cerrar {
+   transform: translateY(-200%);
+}
+.partners h2 {
+   font-size: 30px;
+   margin-bottom: 30px;
+}
+.span_url {
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   margin-bottom: 50px;
+}
+.span_url span {
+   width: 300px;
+   text-align: center;
+   height: 20px;
+}
+.contenido_span_normal {
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+.contenido_span_normal span {
+   width: 450px;
+   text-align: center;
+   height: 20px;
+}
+.lista_socios {
+   font-size: 30px;
+   margin-top: 0;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+
+
+
+/* main */
+.contenedor_ayuda {
+   height: auto;
+   margin: auto;
+   width: 50%;
+   text-align: center;
+   padding-top: 100px;
+   padding-bottom: 60px;
+}
+.contenedor_ayuda p {
+   font-size: 30px;
+   margin-top: 0;
+   font-weight: 600;
+   padding-bottom: 30px;
+   border-bottom: 2px solid yellow;
+}
+.numero_ayuda {
+   color: yellow;
+   font-weight: bold;
+}
+.contenedor_logos_ayuda img {
+   margin: 0 20px;
+   width: 200px;
+}
+
+
+.contenedor_opiniones {
+   padding: 50px 0 50px;
+   background: rgb(0, 0, 124);
+   margin: 50px 0 100px 0;
+   width: 100%;
+   display: flex;
+}
+.contenedor_opinion {
+   background: rgb(0, 0, 63);
+   padding: 30px;
+   height: 350px;
+   text-align: center;
+   width: 350px;
+   margin: auto;
+   border-radius: 30px;
+   border: 3px solid yellow;
+}
+.img_Opinion {
+   width: 150px;
+   border-radius: 50%;
+   height: 150px;
+}
+.opiniones_texto {
+   font-size: 18px;
+}
+.opiniones_nombre {
+   font-size: 18px;
+   font-weight: 790;
+}
+.opiniones_estrallas {
+   width: 200px;
+   height: 50px;
+}
+
+
+
+.contenedor_preguntas {
+   width: 70%;
+   margin: auto;
+   margin-bottom: 100px;
+}
+.contenedor_preguntas h2 {
+   font-size: 30px;
+}
+.pregunta {
+   color: orange;
+   font-weight: 550;
+   font-size: 20px;
+   margin-bottom: 0;
+}
+.respuesta {
+   font-size: 18px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   font-weight: 520;
+}
+
+
+
+.contenedor_regresar_form {
+   padding: 50px 0 60px 0;
+   text-align: center;
+   background-color: rgb(15, 15, 15);
+   width: 100%;
+   margin: auto;
+}
+.regresar_content {
+   width: 50%;
+   margin: auto;
+}
+.contenedor_regresar_form h2 {
+   font-size: 30px;
+}
+.contenedor_regresar_form p {
+   font-size: 20px;
+}
+.btn_regresar_form {
+   background: red;
+   font-weight: 700;
+   padding: 10px 30px;
+   font-size: 20px;
+   text-decoration: none;
+   border-radius: 35px;
+   margin-top: 15px;
+}
+.btn_regresar_form a {
+   color: black;
+   background: red;
+   font-weight: 700;
+   padding: 10px 30px;
+   font-size: 20px;
+   text-decoration: none;
+   border-radius: 35px;
+   margin-top: 15px;
+}
+
+
+
+/* Footer */
+footer {
+   padding-bottom: 50px;
+   padding-top: 50px;
+   background: rgb(61, 61, 61);
+}
+.contenedor_flotante {
+   margin: auto;
+   width: 95%;
+   display: flex;
+   justify-content: space-between;
+}
+.flotantes {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.flotantes p {
+   font-weight: 700;
+   cursor: pointer;
+   color: rgb(255, 189, 169);
+   margin: 0 5px 0 5px;
+   font-size: 18px;
+   border-left: 2px solid yellow;
+   padding-left: 10px;
+}
+.flotantes p a {
+   font-weight: 700;
+   cursor: pointer;
+   text-decoration: none;
+   color: rgb(255, 189, 169);
+   font-size: 18px;
+}
+.flotantes p:hover {
+   text-decoration: underline 2px solid yellow;
+}
+.between_flex {
+   height: 80px;
+}
+.contenido_llamada {
+   color: black;
+}
+.contenido_horario_footer {
+   margin-right: 65px;
+   color: yellow;
+   font-size: 18px;
+   text-align: right;
+   margin-bottom: 40px;
+   margin-top: -10px;
+}
+.contenedor_text_footer {
+   margin: auto;
+   width: 90%;
+   font-size: 20px;
+   text-align: center;
+}
+
+
+
+/* Adaptrable */
+@media screen and (max-width:1500px){
+   header {
+      background: url(./sol.jpg);
+      width: 100%;
+      height: 850px;
+      background-size: cover;
+      color: black;
+   }
+   .form4 {
+      height: 620px;
+   }
+   .contenido_socios {
+      width: 80%;
+      height: 60%;
+      padding: 50px;
+      background: rgb(97, 97, 97);
+      border-radius: 20px;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      border-left: 1px solid black;
+      position: relative;
+      overflow: auto;
+   }
+   .span_url span {
+      width: 350px;
+      margin-bottom: 5px;
+      text-align: center;
+      height: 20px;
+   }
+   .contenido_span_normal span {
+      width: 400px;
+      text-align: center;
+      margin-bottom: 5px;
+      height: 30px;
+   }
+}
+@media screen and (max-width:1200px){
+   .contenido_socios {
+      width: 80%;
+      height: 60%;
+      padding: 50px;
+      background: rgb(97, 97, 97);
+      border-radius: 20px;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      border-left: 1px solid black;
+      position: relative;
+      overflow: auto;
+   }
+   .span_url span {
+      width: 350px;
+      margin-bottom: 5px;
+      text-align: center;
+      height: 20px;
+   }
+   .contenido_span_normal span {
+      width: 400px;
+      text-align: center;
+      margin-bottom: 5px;
+      height: 30px;
+   }
+}
+@media screen and (max-width:1000px){
+   .contenido_privacidad, .contenido_condiciones, .contenido_socios {
+      width: 80%;
+      height: 65%;
+      padding: 35px;
+   }
+   .span_url span {
+      width: 350px;
+      margin-bottom: 5px;
+      text-align: center;
+      height: 20px;
+   }
+   .contenido_span_normal span {
+      width: 350px;
+      text-align: center;
+      margin-bottom: 5px;
+      height: 30px;
+   }
+}
+@media screen and (max-width:900px){
+   .contenido_privacidad, .contenido_condiciones, .contenido_socios {
+      width: 80%;
+      height: 65%;
+      padding: 35px;
+   }
+   .span_url span {
+      width: 300px;
+      margin-bottom: 5px;
+      text-align: center;
+      height: 20px;
+   }
+   .contenido_span_normal span {
+      width: 320px;
+      text-align: center;
+      margin-bottom: 5px;
+      height: 30px;
+   }
+}
+@media screen and (max-width:800px){
+   .contenido_privacidad, .contenido_condiciones, .contenido_socios {
+      width: 80%;
+      height: 65%;
+      padding: 30px;
+   }
+   .span_url span {
+      width: 500px;
+      margin-bottom: 5px;
+      text-align: center;
+      height: 20px;
+   }
+   .contenido_span_normal span {
+      width: 275px;
+      text-align: center;
+      margin-bottom: 5px;
+      height: 30px;
+   }
+
+   header {
+      height: 500px;
+   }
+   .contenido_agente {
+      width: 0;
+      height: 0;
+      visibility: hidden;
+   }
+   .contenido_llamada {
+      height: 70px;
+      width: 220px;
+   }
+   .contenido_llamada img {
+      width: 40px;
+      height: 40px;
+   }
+   .contenido_llamada_num p {
+      text-align: center;
+      font-size: 18px;
+      padding-left: 15px;
+      margin: 0;
+   }
+   .contenido_horario {
+      margin-top: -25px;
+      margin-bottom: 50px;
+      font-size: 15px;
+      font-weight: 500;
+      margin-right: 55px;
+      color: yellow;
+      text-align: right;
+   }
+   .contenedor_texto {
+      margin-top: 20px;
+      height: 200px;
+      overflow: auto;
+   }
+   .boton_casa {
+      padding: 7px 30px;
+   }
+
+
+   .contenedor_ayuda {
+      margin-left: 480px;
+      margin-right: 20px;
+      padding-top: 50px;
+      padding-bottom: 120px;
+      width: auto;
+      height: 150px;
+   }
+   .contenedor_ayuda p {
+      font-size: 15px;
+      margin-top: 0;
+      font-weight: 600;
+      padding-bottom: 0px;
+      border-bottom: 2px solid yellow;
+   }
+   .contenedor_logos_ayuda img {
+      margin: 0 20px;
+      width: 150px;
+   }
+   .contenedor_opiniones {
+      padding: 40px 0 40px;
+      margin: 50px 0 100px 0;
+   }
+   .contenedor_opinion {
+      padding: 20px;
+      height: 310px;
+      width: 250px;
+   }
+   .img_Opinion {
+      width: 100px;
+      height: 100px;
+   }
+   .opiniones_texto {
+      font-size: 16px;
+   }
+   .opiniones_nombre {
+      font-size: 17px;
+      font-weight: 790;
+   }
+   .opiniones_estrallas {
+      width: 150px;
+      height: 40px;
+   }
+   .contenedor_preguntas {
+      width: 80%;
+   }
+   .contenido_horario_footer {
+      margin-top: -20px;
+      margin-right: 45px;
+   }
+
+   .contenido_logo p {
+      visibility: hidden;
+   }
+   .contenido_titulos p {
+      color: black;
+      font-weight: 600;
+      width: 250px;
+      font-size: 20px;
+   }
+   .title {
+      width: 400px;
+      font-size: 30px;
+      color: rgb(0, 26, 255);
+   }
+
+
+   .form1,.form2,.form3,.si_inscrito,.si_genero,.no_genero,.no_hogar,.no_altura,.no_peso,.no_tabaco {
+      margin-top: 70px;
+      margin-left: 0;
+   }
+   .form4 {
+      height: 650px;
+   }
+}
+@media screen and (max-width:700px){
+   .range .field input {
+      margin-top: 10px;
+      -webkit-appearance: none;
+      height: 5px;
+      width: 100%;   
+      background: rgb(63, 60, 255);
+      border-radius: 5px;
+      border: none;
+      outline: none;
+   }
+   .range .field input::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      height: 15px;
+      width: 15px;   
+      background: blue;
+      border-radius: 50%;
+      cursor: pointer;
+   }
+   header {
+      height: 400px;
+   }
+   .contenido_header {
+      padding: 10px;
+   }
+   .contenido_logo p {
+      font-size: 0px;
+      margin: 0;
+   }
+   .logo_american {
+      width: 120px;
+   }
+   .contenido_agente p {
+      margin: 0;
+      font-size: 11px;
+      margin-right: 10px;
+      padding: 0;
+   }
+   .contenido_llamada {
+      height: 50px;
+      margin-left: 0px;
+      width: 150px;
+   }
+   .llamada, .between_flex {
+      height: 50px;
+      margin: 0;
+      padding: 0;
+   }
+   .contenido_llamada img {
+      width: 30px;
+      height: 30px;
+   }
+   .contenido_llamada_num p {
+      text-align: center;
+      font-size: 12px;
+      padding-left: 10px;
+      margin: 0;
+   }
+   .contenido_horario {
+      margin-top: -19px;
+      font-size: 12px;
+      margin-right: 30px;
+   }
+
+
+   .contenido_titulos {
+      text-align: center;
+      width: 50%;
+      padding: 0;
+      margin-left: 0px;
+      margin-top: 50px;
+   }
+   .contenido_titulos p {
+      margin-left: 20px;
+      width: 200px;
+      color: blue;
+      font-size: 17px;
+   }
+   .title {
+      width: 250px;
+      font-size: 20px;
+      color: white;
+      margin: 0;
+      padding: 0;
+      color: black;
+      margin-left: 20px;
+      margin-top: 70px;
+   }
+
+
+
+
+   .form div h2 {
+      font-size: 20px;
+   }
+   .form1,.form2,.form3,.si_inscrito,.si_genero,.no_genero,.no_hogar,.no_altura,.no_peso,.no_tabaco {
+      margin-top: 70px;
+      width: 250px;
+      max-height: 260px;
+   }
+   .irrelevante {
+      font-size: 12px;
+   }
+   .cuestionario_atras {
+      margin-top: 15px;
+   }
+   .contenido_flecha {
+      width: 15px;
+      height: 15px;
+      margin-right: 8px;
+   }
+   .contenido_flecha img {
+      width: 15px;
+      height: 100%;
+   }
+   .btn_back {
+      margin: 0;
+      height: 15px;
+      font-size: 15px;
+   }
+   .form4 {
+      margin-top: 10px;
+      width: 250px;
+      height: 500px;
+   }
+   .virificar_tamaño {
+      font-size: 18px;
+      padding: 8px;
+      width: 180px;
+   }
+   .btn_Continue {
+      margin-top: 15px;
+      font-size: 15px;
+      width: 100px;
+      padding: 8px 10px 8px 10px;
+   }
+   .form1_logos img {
+      width: 66px; 
+   }
+
+   .fechas_flex {
+      display: flex;
+   }
+   .content_fechas select {
+      font-size: 15px;
+      text-align: center;
+      width: 80px;
+      margin: 5px;
+      padding: 5px 0 5px;
+   }
+   .btm_SiNo {
+      margin-top: 0px;
+      font-size: 15px;
+      width: 100px;
+      padding: 8px 10px 8px 10px;
+      margin-bottom: 10px;
+   }
+   .btn_genero {
+      border-radius: 20px;
+      margin: 0 10px 0 10px;
+      cursor: pointer;
+      border: none;
+      text-align: center;
+      width: 100px;
+      padding: 8px 5px;
+      font-size: 15px;
+   }
+   .sliderValue {
+      font-size: 18px;
+   }
+   .sliderValue p {
+      margin: 10px 0 ;
+   }
+   .value {
+      font-size: 18px;
+   }
+   .ContinuarHogar {
+      margin-top: 10px;
+   }
+   .boton_casa {
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 20px;
+      background: white;
+      padding: 10px 21px;
+      margin: 5px;
+   }
+   .no_ingreso {
+      margin-top: 70px;
+      width: 250px;      
+      margin-top: 50px;
+      height: 280px;
+   }
+   .btn_saltar_genero {
+      font-size: 13px;
+      margin-top: 5px;
+      margin-bottom: 0;
+      padding-bottom: 0;
+   }
+   .nombre_completo div input{
+      font-size: 13px;
+      width: 112px;
+   }
+   .nombre {
+      margin-right:10px;
+   }
+   .text {
+      display: block;
+      padding: 0px;
+      height: 18px;
+      margin-bottom: 10px;
+      font-size: 13px;
+      width: 98%;
+   }
+   .contenedor_fin_form {
+      font-size: 13px;
+   }
+   .cotizacion {
+      padding-top: 5px;
+      width: 90%;
+      margin: auto;
+      display: flex;
+   }
+   .cotizacion p {
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 10px;
+      font-size: 12px;
+   }
+   .contenedor_progreso_completo {
+      height: 0;
+      width: 0;
+      visibility: hidden;
+   }
+   .enviar_form {
+      font-size: 15px;
+      padding: 8px 30px;
+      border-radius: 30px;
+      margin-top: 10px;
+   }
+   .contenedor_texto {
+      margin-top: 10px;
+      height: 168px;
+   }
+   .contenedor_texto p {
+      margin-right: 10px;
+      margin-top: 0;
+      font-size: 12px;
+   }
+   .btn_politicas, .btn_terminos, .btn_marketing, .btn_CCPA a{
+      font-size: 12px;
+      font-weight: 500;
+   }
+   .contenedor_tabaco {
+      width: 90%;
+   }
+
+
+
+
+
+
+
+   .contenedor_ayuda {
+      height: 230px;
+      width: auto;
+      padding-bottom: 00px;
+      margin: 0px;
+      margin-left: 350px;
+      padding: 30px 10px;
+   }
+   .contenedor_ayuda p {
+      font-size: 20px;
+      padding: 0px;
+      padding-bottom: 20px;
+      margin: 0;
+      margin-bottom: 10px;
+      border-bottom: 2px solid yellow;
+   }
+   .contenedor_logos_ayuda img {
+      margin: 0;
+      width: 130px;
+   }
+
+
+   .contenedor_opiniones {
+      padding: 20px 0 20px 0;
+      width: 100%;
+      margin-top: 70px;
+      margin-bottom: 50px;
+   }
+   .contenedor_opinion {
+      padding: 15px;
+      height: 190px;
+      width: 200px;
+      border-radius: 30px;
+      border: 1px solid yellow;
+   }
+   .img_Opinion {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+   }
+   .opiniones_texto {
+      font-size: 12px;
+   }
+   .opiniones_nombre {
+      font-size: 12px;
+   }
+   .opiniones_estrallas {
+      width: 100px;
+      height: 20px;
+   }
+
+   .contenedor_preguntas {
+      width: 80%;
+      margin: auto;
+      margin-bottom: 50px;
+   }
+   .contenedor_preguntas h2 {
+   font-size: 19px;
+   }
+   .pregunta {
+      font-size: 14px;
+      margin-bottom: 0;
+   }
+   .respuesta {
+      font-size: 12px;
+      margin-top: 3px;
+      margin-bottom: 10px;
+      font-weight: 520;
+   }
+
+   .contenedor_regresar_form {
+      padding: 20px 0 40px 0;
+   }
+   .regresar_content {
+      width: 80%;
+      margin: auto;
+   }
+   .contenedor_regresar_form h2 {
+      font-size: 19px;
+   }
+   .contenedor_regresar_form p {
+      font-size: 15px;
+   }
+   .btn_regresar_form {
+      padding: 0px 0px;
+      margin-top: 0px;
+   }
+   .btn_regresar_form a {
+      font-size: 13px;
+   }
+
+
+
+
+   .contenido_privacidad, .contenido_condiciones, .contenido_socios {
+      width: 70%;
+      height: 70%;
+      padding: 30px;
+   }
+   .conteneror_privacidad, .conteneror_condiciones h2 {
+      font-size: 22px;
+      margin-top: 0;
+      margin-bottom: 20px;
+   }
+   .conteneror_privacidad, .conteneror_condiciones h3 {
+      font-size: 20px;
+      margin-bottom: 5px;
+   }
+   .conteneror_privacidad, .conteneror_condiciones p {
+      font-size: 17px;
+      margin-top: 0;
+      margin-bottom: 20px;
+   }
+
+   .conteneror_privacidad table th,td {
+      font-size: 12px;
+   }
+   .conteneror_privacidad table td {
+      max-width: 500px;
+   }
+   .partners h2 {
+      font-size: 20px;
+      margin-bottom: 30px;
+   }
+   .span_url {
+      font-size: 15px;
+      margin-bottom: 20px;
+   }
+   .contenido_span_normal span {
+      width: 185px;
+   }
+   .lista_socios {
+      font-size: 13px;
+      margin-top: 0;
+      text-align: center;
+      margin-bottom: 20px;
+   }
+   .contenido_span_normal {
+      font-size: 10px;
+   }
+
+
+
+   footer {
+      padding-bottom: 10px;
+      padding-top: 10px;
+   }
+   .contenedor_flotante {
+      margin: auto;
+      width: 95%;
+      display: block;
+      justify-content: space-between;
+   }
+   .flotantes {
+      margin-bottom: 15px;
+   }
+   .flotantes p {
+      margin: 0 2px 0 2px;
+      font-size: 12px;
+      border-left: 2px solid yellow;
+      padding-left: 10px;
+   }
+   .flotantes p a {
+      font-size: 12px;
+   }
+   .contenido_horario_footer {
+      margin-top: -5px;
+      text-align: center;
+      font-size: 12px;
+      margin-bottom: 15px;
+      margin-right: 0;
+   }
+   .contenedor_text_footer {
+      font-size: 13px;
+   }
+   .between_flex {
+      justify-content: center;
+   }
+}
+@media screen and (max-width:600px){
+   header {
+      width: 100%;
+      height: 360px;
+      background: url(./Naturaleza.jpg);
+      background-size: cover;
+      color: black;
+   }
+   .contenido_header {
+      padding: 10px;
+   }
+   .contenido_logo p {
+      font-size: 0px;
+      margin: 0;
+   }
+   .logo_american {
+      width: 120px;
+   }
+   .contenido_agente p {
+      margin: 0;
+      font-size: 11px;
+      margin-right: 10px;
+      padding: 0;
+   }
+   .contenido_llamada {
+      height: 50px;
+      margin-left: 0px;
+      width: 150px;
+   }
+   .llamada, .between_flex {
+      height: 50px;
+      margin: 0;
+      padding: 0;
+   }
+   .contenido_llamada img {
+      width: 30px;
+      height: 30px;
+   }
+   .contenido_llamada_num p {
+      text-align: center;
+      font-size: 12px;
+      padding-left: 10px;
+      margin: 0;
+   }
+   .contenido_horario {
+      margin-top: -19px;
+      font-size: 12px;
+      margin-right: 30px;
+   }
+
+
+   .contenido_titulos {
+      text-align: center;
+      padding: 0;
+      margin-left: 0px;
+      margin-top: 40px;
+   }
+   .contenido_titulos p {
+      margin-left: 20px;
+      width: 180px;
+      color: blue;
+      font-size: 17px;
+      margin-top: 10px;
+   }
+   .title {
+      width: 250px;
+      font-size: 20px;
+      color: white;
+      margin: 0;
+      padding: 0;
+      color: black;
+      margin-left: 20px;
+   }
+
+
+
+
+   .form div h2 {
+      font-size: 20px;
+   }
+   .form1,.form2,.form3,.si_inscrito,.si_genero,.no_genero,.no_ingreso,.no_hogar,.no_altura,.no_peso,.no_tabaco {
+      margin-top: 40px;
+      margin-left: 120px;
+      justify-content: center;
+      width: 250px;
+      max-height: 300px;
+   }
+   .btn_Continue {
+      padding: 7px 20px;
+      font-size: 17px; 
+   }
+   .form1_logos img {
+      width: 65px;
+   }
+   .virificar_tamaño {
+      font-size: 18px;
+   }
+   .content_fechas select {
+      font-size: 15px;
+      width: 80px;
+   }
+   .contenido_flecha {
+      width: 17px;
+      height: 17px;
+      margin-right: 8px;
+   }
+   .contenido_flecha img {
+      width: 17px;
+      height: 100%;
+   }
+   .btn_back {
+      margin: 0;
+      height: 17px;
+      font-size: 17px;
+   }
+   .irrelevante {
+      font-size: 12px;
+   }
+   .btm_SiNo {
+      border-radius: 20px;
+      margin: 0 10px 0 10px;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+      padding: 10px 30px;
+      font-size: 17px;
+   }
+   .btn_genero {
+      border-radius: 20px;
+      margin: 0 10px 0 10px;
+      cursor: pointer;
+      width: 100px;
+      border: none;
+      text-align: center;
+      padding: 10px 0px;
+      font-size: 17px;
+   }
+   .btn_saltar_genero {
+      font-size: 15px;
+   }
+   .sliderValue {
+      font-size: 18px;
+   }
+   .value {
+      font-size: 18px;
+   }
+   .ContinuarHogar, .ContinuarPeso, .ContinuarTabaco {
+      color: black;
+      font-size: 17px;
+      margin-top: 20px;
+      padding: 8px 20px;
+      border-radius: 20px;  
+   }
+   .boton_casa {
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 20px;
+      background: white;
+      padding: 10px 21px;
+      margin: 5px;
+   }
+   .contenedor_Altura div select {
+      font-size: 18px;
+      padding: 5px 0;
+      width: 100px;
+      text-align: center;
+   }
+   .contenedor_Altura div label {
+      font-size: 18px;
+   }
+   .contenedor_tabaco {
+      width: 90%;
+   }
+   .contenedor_progreso_completo {
+      width: 0;
+      height: 0;
+      visibility: hidden;
+   }
+   .form4 {
+      margin-top: -50px;
+      height: 570px;
+      margin-left: 110px;
+      width: 250px;
+      opacity: 0;
+   }
+   .nombre_completo div input{
+      padding: 3px;
+      width: 100px;
+   }
+   .text {
+      display: block;
+      padding: 3px;
+      margin-bottom: 10px;
+      width: 94%;
+   }
+   .cotizacion {
+      padding-top: 5px;
+      width: 90%;
+      margin: auto;
+      display: flex;
+   }
+   .cotizacion p {
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 10px;
+      font-size: 14px;
+   }
+   .enviar_form {
+      font-size: 17px;
+      padding: 8px 25px;
+      margin-top: 15px;
+   }
+   .contenedor_texto {
+      margin-top: 15px;
+      height: 187px;
+   }
+   .contenedor_texto p {
+      font-size: 13px;
+   }
+   .btn_politicas, .btn_terminos, .btn_marketing, .btn_CCPA a{
+      font-size: 13px;
+      font-weight: 500;
+   }
+
+
+
+   .contenedor_ayuda {
+      height: 150px;
+      width: 60%;
+      margin: auto;
+      padding: 30px 10px;
+      padding-top: 400px;
+   }
+   .contenedor_ayuda p {
+      font-size: 20px;
+      padding: 0px;
+      padding-bottom: 20px;
+      margin: 0;
+      margin-bottom: 10px;
+      border-bottom: 2px solid yellow;
+   }
+   .contenedor_logos_ayuda img {
+      margin: 0;
+      width: 130px;
+   }
+
+
+   .contenedor_opiniones {
+      padding: 20px 0 20px 0;
+      width: 100%;
+      margin-top: 70px;
+      margin-bottom: 50px;
+   }
+   .contenedor_opinion {
+      padding: 15px;
+      height: 190px;
+      width: 200px;
+      border-radius: 30px;
+      border: 1px solid yellow;
+   }
+   .img_Opinion {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+   }
+   .opiniones_texto {
+      font-size: 12px;
+   }
+   .opiniones_nombre {
+      font-size: 12px;
+   }
+   .opiniones_estrallas {
+      width: 100px;
+      height: 20px;
+   }
+
+   .contenedor_preguntas {
+      width: 80%;
+      margin: auto;
+      margin-bottom: 50px;
+   }
+   .contenedor_preguntas h2 {
+   font-size: 19px;
+   }
+   .pregunta {
+      font-size: 14px;
+      margin-bottom: 0;
+   }
+   .respuesta {
+      font-size: 12px;
+      margin-top: 3px;
+      margin-bottom: 10px;
+      font-weight: 520;
+   }
+
+   .contenedor_regresar_form {
+      padding: 20px 0 40px 0;
+   }
+   .regresar_content {
+      width: 80%;
+      margin: auto;
+   }
+   .contenedor_regresar_form h2 {
+      font-size: 19px;
+   }
+   .contenedor_regresar_form p {
+      font-size: 15px;
+   }
+   .btn_regresar_form {
+      padding: 0px 0px;
+      margin-top: 0px;
+   }
+   .btn_regresar_form a {
+      font-size: 13px;
+   }
+
+
+   footer {
+      padding-bottom: 10px;
+      padding-top: 10px;
+   }
+   .contenedor_flotante {
+      margin: auto;
+      width: 95%;
+      display: block;
+      justify-content: space-between;
+   }
+   .flotantes {
+      margin-bottom: 15px;
+   }
+   .flotantes p {
+      margin: 0 2px 0 2px;
+      font-size: 12px;
+      border-left: 2px solid yellow;
+      padding-left: 10px;
+   }
+   .flotantes p a {
+      font-size: 12px;
+   }
+   .contenido_horario_footer {
+      margin-top: -5px;
+      text-align: center;
+      font-size: 12px;
+      margin-bottom: 15px;
+      margin-right: 0;
+   }
+   .contenedor_text_footer {
+      font-size: 13px;
+   }
+   .between_flex {
+      justify-content: center;
+   }
+   .range .field input {
+      margin-top: 10px;
+      -webkit-appearance: none;
+      height: 5px;
+      width: 100%;   
+      background: rgb(63, 60, 255);
+      border-radius: 5px;
+      border: none;
+      outline: none;
+   }
+   .range .field input::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      height: 15px;
+      width: 15px;   
+      background: blue;
+      border-radius: 50%;
+      cursor: pointer;
+   }
+}
+@media screen and (max-width:550px){
+   .form1,.form2,.form3,.si_inscrito,.si_genero,.no_genero,.no_ingreso,.no_hogar,.no_altura,.no_peso,.no_tabaco {
+      margin-left: 80px;
+   }
+   .form4 {
+      margin-left: 80px;
+      width: 250px;
+   }
+
+
+
+   .contenido_privacidad, .contenido_condiciones, .contenido_socios {
+      width: 70%;
+      height: 70%;
+      padding: 20px;
+   }
+   .conteneror_privacidad, .conteneror_condiciones h2 {
+      font-size: 20px;
+      margin-bottom: 20px;
+   }
+   .conteneror_privacidad, .conteneror_condiciones h3 {
+      font-size: 17px;
+      margin-bottom: 5px;
+   }
+   .conteneror_privacidad, .conteneror_condiciones p {
+      font-size: 12px;
+      margin-bottom: 20px;
+   }
+
+   .conteneror_privacidad table th,td {
+      font-size: 10px;
+   }
+   .conteneror_privacidad table td {
+      max-width: 200px;
+      max-width: 200px;
+   }
+   .partners h2 {
+      font-size: 18px;
+      margin-bottom: 30px;
+   }
+   .span_url {
+      font-size: 13px;
+      margin-bottom: 20px;
+   }
+   .lista_socios {
+      font-size: 13px;
+      margin-top: 0;
+      text-align: center;
+      margin-bottom: 20px;
+   }
+   .contenido_span_normal {
+      font-size: 10px;
+   }
+   .range .field input {
+      margin-top: 10px;
+      -webkit-appearance: none;
+      height: 5px;
+      width: 100%;   
+      background: rgb(63, 60, 255);
+      border-radius: 5px;
+      border: none;
+      outline: none;
+   }
+   .range .field input::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      height: 15px;
+      width: 15px;   
+      background: blue;
+      border-radius: 50%;
+      cursor: pointer;
+   }
+}
+@media screen and (max-width:500px){
+   .range .field input {
+      margin-top: 10px;
+      -webkit-appearance: none;
+      height: 5px;
+      width: 100%;   
+      background: rgb(63, 60, 255);
+      border-radius: 5px;
+      border: none;
+      outline: none;
+   }
+   .range .field input::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      height: 15px;
+      width: 15px;   
+      background: blue;
+      border-radius: 50%;
+      cursor: pointer;
+   }
+   .header {
+      background-size: cover;
+      width: 100%;
+      height: 290px;
+   }
+   .contenido_header {
+      padding: 15px;
+      margin: 0;
+      height: 50px;
+      justify-content: left;
+   }
+   .contenido_logo{
+      width: 0;
+      visibility: hidden;
+      opacity: 0;
+      height: 0;
+      margin: 0;
+      padding: 0;
+   }
+   .contenido_logo p {
+      font-size: 0px;
+   }
+   .logo_american {
+      width: 0;
+   }
+   .between_flex {
+      margin: 0;
+      padding: 0;
+   }
+   .contenido_agente {
+      visibility: hidden;
+      width: 0;
+      height: 0;
+   }
+   .between_flex {
+      height: 50px;
+   }
+   .llamada {
+      height: 50px;      
+   }
+   .contenido_llamada {
+      padding: 0;
+      margin: 0;
+      height: 50px;
+      border-radius: 30px;
+      width: 150px;
+   }
+   .contenido_llamada img {
+      width: 30px;
+      margin: 0;
+      height: 30px;
+   }
+   .contenido_llamada_num p {
+      font-size: 12px;
+      padding-left: 5px;
+   }
+   .contenido_horario {
+      text-align: left;
+      margin-top: -8px;
+      color: rgb(255, 255, 255);
+      font-size: 12px;
+      margin-left: 30px;
+   }
+   .contenido_horario p {
+      margin: 0;
+      padding: 0;
+      font-size: 12px;
+   }
+
+   .contenido_titulos {
+      text-align: center;
+      width: 90%;
+      padding: 0;
+      margin-left: 0px;
+      margin-top: 10px;
+   }
+   .contenido_titulos p {
+      margin-left: 18px;
+      width: 140px;
+      font-size: 12px;
+   }
+   .title {
+      width: 140px;
+      font-size: 16px;
+      color: white;
+      margin: 0;
+      padding: 0;
+      color: black;
+      margin-left: 20px;
+      margin-top: -30px;
+   }
+
+   .form div h2 {
+      font-size: 23px;
+   }
+   .form1,.form2,.form3,.si_inscrito,.si_genero,.no_genero,.no_ingreso,.no_hogar,.no_altura,.no_peso,.no_tabaco {
+      margin-top: 10px;
+      width: 300px;
+      max-height: 330px;
+      margin-left: 0;
+   }
+   .irrelevante {
+      font-size: 14px;
+   }
+   .cuestionario_atras {
+      margin-top: 15px;
+   }
+   .contenido_flecha {
+      width: 17px;
+      height: 17px;
+      margin-right: 8px;
+   }
+   .contenido_flecha img {
+      width: 17px;
+      height: 100%;
+   }
+   .btn_back {
+      margin: 0;
+      height: 17px;
+      font-size: 17px;
+   }
+   .form4 {
+      margin-top: 70px;
+      width: 305px;
+      margin-top: -50px;      
+      height: 535px;
+      margin-left: 0;
+   }
+   .virificar_tamaño {
+      font-size: 18px;
+      padding: 8px;
+      width: 180px;
+   }
+   .btn_Continue {
+      margin-top: 15px;
+      font-size: 17px;
+      width: 100px;
+      padding: 8px 10px 8px 10px;
+   }
+   .form1_logos img {
+      width: 66px; 
+   }
+
+   .fechas_flex {
+      display: flex;
+   }
+   .content_fechas select {
+      font-size: 17px;
+      text-align: center;
+      width: 90px;
+      margin: 5px;
+      padding: 5px 0 5px;
+   }
+   .btm_SiNo {
+      margin-top: 0px;
+      font-size: 17px;
+      width: 100px;
+      padding: 8px 10px 8px 10px;
+      margin-bottom: 10px;
+   }
+   .btn_genero {
+      border-radius: 20px;
+      margin: 0 10px 0 10px;
+      cursor: pointer;
+      border: none;
+      text-align: center;
+      width: 100px;
+      padding: 8px 5px;
+      font-size: 17px;
+   }
+   .btn_saltar_genero {
+      font-size: 15px;
+      margin-top: 5px;
+      margin-bottom: 0;
+      padding-bottom: 0;
+   }
+   .nombre_completo div input{
+      font-size: 17px;
+      width: 139px;
+   }
+   .nombre {
+      font-size: 17px;
+      margin-right:10px;
+   }
+   .text {
+      display: block;
+      padding: 0px;
+      height: 18px;
+      margin-bottom: 10px;
+      font-size: 17px;
+      width: 99%;
+   }
+   .contenedor_fin_form {
+      font-size: 16px;
+   }
+   .cotizacion {
+      padding-top: 5px;
+      width: 70%;
+      margin: auto;
+      display: flex;
+   }
+   .cotizacion p {
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 7px;
+      font-size: 12px;
+   }
+   .contenedor_progreso_completo {
+      height: 0;
+      width: 0;
+      visibility: hidden;
+   }
+   .enviar_form {
+      font-size: 15px;
+      padding: 8px 30px;
+      border-radius: 30px;
+      margin-top: 10px;
+   }
+   .contenedor_texto {
+      margin-top: 10px;
+      height: 180px;
+   }
+   .contenedor_texto p {
+      margin-right: 10px;
+      margin-top: 0;
+      font-size: 12px;
+   }
+   .btn_politicas, .btn_terminos, .btn_marketing, .btn_CCPA a{
+      font-size: 12px;
+      font-weight: 500;
+   }
+   .sliderValue, .value {
+      font-size: 18px;
+   }
+   .ContinuarHogar, .ContinuarPeso, .ContinuarTabaco {
+      font-size: 17px;
+      margin-top: 20px;
+      padding: 8px 20px;
+   }
+   .rango_largo {
+      width: 150px;
+   }
+   .boton_casa {
+      font-size: 17px;
+      font-weight: bold;
+      border-radius: 20px;
+      background: white;
+      padding: 7px 30px;
+      margin: 10px;
+   }
+   .contenedor_Altura {
+      font-size: 20px;
+   }
+   .contenedor_Altura div select {
+      font-size: 17px;
+   }
+   .contenedor_tabaco {
+      width: 80%;
+   }
+   .continuarFin {
+      width: 100px;
+      font-size: 17px;
+      padding: 10px 20px;
+   }
+
+
+
+   .contenedor_ayuda {
+      visibility: hidden;
+      height: 370px;
+      margin: auto;
+      width: 50%;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+   }
+
+   .contenedor_opiniones {
+      background: black;
+      padding: 20px 0 20px 0;
+      width: 100%;
+      display: block;
+      margin: 0;
+   }
+   .contenedor_opinion {
+      padding: 15px;
+      margin-bottom: 20px;
+      height: 190px;
+      width: 270px;
+      border-radius: 30px;
+      border: 1px solid yellow;
+   }
+   .img_Opinion {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+   }
+   .opiniones_texto {
+      font-size: 12px;
+   }
+   .opiniones_nombre {
+      font-size: 12px;
+   }
+   .opiniones_estrallas {
+      width: 100px;
+      height: 20px;
+   }
+
+   .contenedor_preguntas {
+      width: 80%;
+      margin: auto;
+      margin-bottom: 50px;
+   }
+   .contenedor_preguntas h2 {
+   font-size: 17px;
+   }
+   .pregunta {
+      font-size: 12px;
+      margin-bottom: 0;
+   }
+   .respuesta {
+      font-size: 12px;
+      margin-top: 3px;
+      margin-bottom: 10px;
+      font-weight: 520;
+   }
+
+   .contenedor_regresar_form {
+      padding: 20px 0 40px 0;
+   }
+   .regresar_content {
+      width: 70%;
+      margin: auto;
+   }
+   .contenedor_regresar_form h2 {
+      font-size: 17px;
+   }
+   .contenedor_regresar_form p {
+      font-size: 12px;
+   }
+   .btn_regresar_form {
+      padding: 0px 0px;
+      margin-top: 0px;
+   }
+   .btn_regresar_form a {
+      font-size: 12px;
+   }
+
+
+   footer {
+      padding-bottom: 10px;
+      padding-top: 10px;
+   }
+   .contenedor_flotante {
+      margin: auto;
+      width: 95%;
+      display: block;
+      justify-content: space-between;
+   }
+   .flotantes {
+      margin-bottom: 15px;
+   }
+   .flotantes p {
+      margin: 0 2px 0 2px;
+      font-size: 12px;
+      border-left: 2px solid yellow;
+      padding-left: 10px;
+   }
+   .flotantes p a {
+      font-size: 12px;
+   }
+   .contenido_horario_footer {
+      margin-top: -5px;
+      text-align: center;
+      font-size: 12px;
+      margin-bottom: 15px;
+      margin-right: 0;
+   }
+   .contenedor_text_footer {
+      font-size: 10px;
+   }
+   .between_flex {
+      justify-content: center;
+   }
+
+   .conteneror_privacidad table td {
+      max-width: 130px;
+   }
+}
+@media screen and (max-width:400px){
+   .header {
+      background-size: cover;
+      width: 100%;
+      height: 230px;
+   }
+   .contenido_header {
+      padding: 10px;
+      margin: 0;
+      height: 50px;
+      justify-content: left;
+   }
+   .contenido_logo{
+      width: 0;
+      visibility: hidden;
+      opacity: 0;
+      height: 0;
+      margin: 0;
+      padding: 0;
+   }
+   .contenido_logo p {
+      font-size: 0px;
+   }
+   .logo_american {
+      width: 0;
+   }
+   .between_flex {
+      margin: 0;
+      padding: 0;
+   }
+   .contenido_agente {
+      visibility: hidden;
+      width: 0;
+      height: 0;
+   }
+   .between_flex {
+      height: 50px;
+   }
+   .llamada {
+      height: 50px;      
+   }
+   .contenido_llamada {
+      padding: 0;
+      margin: 0;
+      height: 50px;
+      border-radius: 30px;
+      width: 150px;
+   }
+   .contenido_llamada img {
+      width: 30px;
+      margin: 0;
+      height: 30px;
+   }
+   .contenido_llamada_num p {
+      font-size: 12px;
+      padding-left: 5px;
+   }
+   .contenido_horario {
+      text-align: left;
+      margin-top: -8px;
+      color: rgb(255, 255, 255);
+      font-size: 12px;
+      margin-left: 30px;
+   }
+   .contenido_horario p {
+      margin: 0;
+      padding: 0;
+      font-size: 12px;
+   }
+
+   .contenido_titulos {
+      text-align: center;
+      width: 90%;
+      padding: 0;
+      margin-left: 0px;
+      margin-top: 10px;
+   }
+   .contenido_titulos p {
+      padding: 0;
+      margin: 0;
+      visibility: hidden;
+      height: 0;
+      width: 0px;
+   }
+   .title {
+      width: 100px;
+      font-size: 15px;
+      color: white;
+      margin: 0;
+      padding: 0;
+      color: black;
+      margin-left: 20px;
+      margin-top: 20px;
+   }
+
+
+
+   .form div h2 {
+      font-size: 20px;
+   }
+   .form1,.form2,.form3,.si_inscrito,.si_genero,.no_genero,.no_ingreso,.no_hogar,.no_altura,.no_peso,.no_tabaco {
+      margin-top: 70px;
+      width: 250px;
+      max-height: 320px;
+   }
+   .irrelevante {
+      font-size: 12px;
+   }
+   .cuestionario_atras {
+      margin-top: 15px;
+   }
+   .contenido_flecha {
+      width: 15px;
+      height: 15px;
+      margin-right: 8px;
+   }
+   .contenido_flecha img {
+      width: 15px;
+      height: 100%;
+   }
+   .btn_back {
+      margin: 0;
+      height: 15px;
+      font-size: 15px;
+   }
+   .virificar_tamaño {
+      font-size: 18px;
+      padding: 8px;
+      width: 180px;
+   }
+   .btn_Continue {
+      margin-top: 15px;
+      font-size: 15px;
+      width: 100px;
+      padding: 8px 10px 8px 10px;
+   }
+   .form1_logos img {
+      width: 66px; 
+   }
+
+   .fechas_flex {
+      display: flex;
+   }
+   .content_fechas select {
+      font-size: 15px;
+      text-align: center;
+      width: 80px;
+      margin: 5px;
+      padding: 5px 0 5px;
+   }
+   .btm_SiNo {
+      margin-top: 0px;
+      font-size: 15px;
+      width: 100px;
+      padding: 8px 10px 8px 10px;
+      margin-bottom: 10px;
+   }
+   .boton_casa {
+      font-size: 15px;
+      font-weight: bold;
+      border-radius: 20px;
+      background: white;
+      padding: 7px 25px;
+      margin: 10px;
+   }
+   .btn_genero {
+      border-radius: 20px;
+      margin: 0 10px 0 10px;
+      cursor: pointer;
+      border: none;
+      text-align: center;
+      width: 100px;
+      padding: 8px 5px;
+      font-size: 15px;
+   }
+   .btn_saltar_genero {
+      font-size: 13px;
+      margin-top: 5px;
+      margin-bottom: 0;
+      padding-bottom: 0;
+   }
+   .boton_casa {
+      margin: 5px;
+      padding: 15px 20px;
+   }
+   .form4 {
+      margin-top: -60px;      
+      height: 470px;
+      width: 250px;
+   }
+   .nombre_completo div input{
+      font-size: 13px;
+      padding: 0px;
+      width: 112px;
+   }
+   .nombre {
+      margin-right:10px;
+   }
+   .nombre label {
+      font-size: 13px;
+   }
+   .text {
+      display: block;
+      padding: 0px;
+      height: 18px;
+      margin-bottom: 10px;
+      font-size: 13px;
+      width: 98%;
+   }
+   .contenedor_fin_form {
+      font-size: 13px;
+   }
+   .cotizacion {
+      padding-top: 5px;
+      width: 90%;
+      margin: auto;
+      display: flex;
+   }
+   .cotizacion p {
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 10px;
+      font-size: 12px;
+   }
+   .contenedor_progreso_completo {
+      height: 0;
+      width: 0;
+      visibility: hidden;
+   }
+   .enviar_form {
+      font-size: 15px;
+      padding: 8px 30px;
+      border-radius: 30px;
+      margin-top: 10px;
+   }
+   .contenedor_texto {
+      margin-top: 10px;
+      height: 137px;
+   }
+   .contenedor_texto p {
+      margin-right: 10px;
+      margin-top: 0;
+      font-size: 12px;
+   }
+   .btn_politicas, .btn_terminos, .btn_marketing, .btn_CCPA a{
+      font-size: 12px;
+      font-weight: 500;
+   }
+   .continuarFin {
+      width: 80px;
+      font-size: 15px;
+      padding: 10px 20px;
+   }
+
+
+
+   .contenedor_ayuda {
+      visibility: hidden;
+      height: 350px;
+      margin: auto;
+      width: 50%;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+   }
+
+   .contenedor_opiniones {
+      background: black;
+      padding: 20px 0 20px 0;
+      width: 100%;
+      display: block;
+      margin: 0;
+   }
+   .contenedor_opinion {
+      padding: 15px;
+      margin-bottom: 20px;
+      height: 190px;
+      width: 270px;
+      border-radius: 30px;
+      border: 1px solid yellow;
+   }
+   .img_Opinion {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+   }
+   .opiniones_texto {
+      font-size: 12px;
+   }
+   .opiniones_nombre {
+      font-size: 12px;
+   }
+   .opiniones_estrallas {
+      width: 100px;
+      height: 20px;
+   }
+   .range .field input {
+      margin-top: 10px;
+      -webkit-appearance: none;
+      height: 5px;
+      width: 100%;   
+      background: rgb(63, 60, 255);
+      border-radius: 5px;
+      border: none;
+      outline: none;
+   }
+   .range .field input::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      height: 15px;
+      width: 15px;   
+      background: blue;
+      border-radius: 50%;
+      cursor: pointer;
+   }
+
+   .contenedor_preguntas {
+      width: 80%;
+      margin: auto;
+      margin-bottom: 50px;
+   }
+   .contenedor_preguntas h2 {
+   font-size: 17px;
+   }
+   .pregunta {
+      font-size: 12px;
+      margin-bottom: 0;
+   }
+   .respuesta {
+      font-size: 12px;
+      margin-top: 3px;
+      margin-bottom: 10px;
+      font-weight: 520;
+   }
+
+   .contenedor_regresar_form {
+      padding: 20px 0 40px 0;
+   }
+   .regresar_content {
+      width: 70%;
+      margin: auto;
+   }
+   .contenedor_regresar_form h2 {
+      font-size: 17px;
+   }
+   .contenedor_regresar_form p {
+      font-size: 12px;
+   }
+   .btn_regresar_form {
+      padding: 0px 0px;
+      margin-top: 0px;
+   }
+   .btn_regresar_form a {
+      font-size: 12px;
+   }
+
+   .conteneror_privacidad, .conteneror_condiciones, .conteneror_socios{
+      margin: auto;
+      position: fixed;
+      z-index: 1000;
+      width: 100%;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      background: rgba(0,0,0,0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .contenido_privacidad, .contenido_condiciones, .contenido_socios {
+      width: 80%;
+      height: 70%;
+      text-decoration: none;
+      padding: 15px;
+      background: rgb(97, 97, 97);
+      border-radius: 20px;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      border-left: 1px solid black;
+      position: relative;
+      overflow: auto;
+   }
+   .conteneror_privacidad, .conteneror_condiciones h2 {
+      font-size: 20px;
+      margin-top: 0;
+      margin-bottom: 20px;
+   }
+   .conteneror_privacidad, .conteneror_condiciones h3 {
+      font-size: 16px;
+      margin-bottom: 5px;
+   }
+   .conteneror_privacidad, .conteneror_condiciones p {
+      font-size: 12px;
+      margin-top: 0;
+      margin-bottom: 20px;
+   }
+   .conteneror_privacidad table th,td {
+      font-size: 10px;
+   }
+   .conteneror_privacidad table td {
+      max-width: 120px;
+   }
+   .partners h2 {
+      font-size: 15px;
+      margin-bottom: 30px;
+   }
+   .span_url {
+      font-size: 10px;
+      margin-bottom: 20px;
+   }
+   .lista_socios {
+      font-size: 10px;
+      margin-top: 0;
+      text-align: center;
+      margin-bottom: 20px;
+   }
+   .contenido_span_normal {
+      font-size: 10px;
+   }
+
+
+
+   footer {
+      padding-bottom: 10px;
+      padding-top: 10px;
+   }
+   .contenedor_flotante {
+      margin: auto;
+      width: 95%;
+      display: block;
+      justify-content: space-between;
+   }
+   .flotantes {
+      margin-bottom: 15px;
+   }
+   .flotantes p {
+      margin: 0 2px 0 2px;
+      font-size: 12px;
+      border-left: 2px solid yellow;
+      padding-left: 10px;
+   }
+   .flotantes p a {
+      font-size: 12px;
+   }
+   .contenido_horario_footer {
+      margin-top: -5px;
+      text-align: center;
+      font-size: 12px;
+      margin-bottom: 15px;
+      margin-right: 0;
+   }
+   .contenedor_text_footer {
+      font-size: 10px;
+   }
+   .between_flex {
+      justify-content: center;
+   }
+}
